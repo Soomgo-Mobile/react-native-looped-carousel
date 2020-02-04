@@ -1,0 +1,58 @@
+{
+  "name": "react-native-looped-carousel",
+  "version": "0.1.13",
+  "description": "Looped carousel for React Native",
+  "author": "Phil Rukin <philipp@rukin.me> (http://rukin.me)",
+  "contributors": [
+    {
+      "name": "Sergey Pronin",
+      "email": "sergey@pronin.me"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phil-r/react-native-looped-carousel"
+  },
+  "bugs": {
+    "url": "https://github.com/phil-r/react-native-looped-carousel/issues"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "carousel",
+    "looped"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.54.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^23.0.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^23.0.0",
+    "react": "^16.2.0",
+    "react-native": "^0.55.1",
+    "react-test-renderer": "^16.2.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "prop-types": "^15.6.1"
+  },
+  "jest": {
+    "notify": true,
+    "preset": "react-native"
+  }
+}
